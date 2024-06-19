@@ -6,31 +6,33 @@ import Logo from "@/assets/images/Logo_Almas _verticales.png"
 
 
 const navItemsLeft = [
-    { path: "/", text: "Nosotros" },
-    { path: "/", text: "Sedes" },
-    { path: "/", text: "Carreras" },
+    { path: "/", text: "NUESTRO PROYECTO" },
+    { path: "/", text: "SOBRE NOSOTROS" },
+    { path: "/", text: "BLOG" },
   ];
 
   export const Navbar = () => {
 
     return (
-        <header className="fixed w-full top-0 scroll__header text-white tracking-wider text-xl">
-       <nav className="wrapper hidden items-center justify-between lg:flex xl:w-[70%] xl:gap-8 lg:gap-6 lg:w-[80%]">
+        <header className="fixed w-full top-0 scroll__header text-white tracking-wider">
+       <nav className="wrapper hidden text-xl items-center justify-between lg:flex xl:w-[70%] xl:gap-8 lg:gap-6 lg:w-[80%]">
        <Link href="/">
           <Image
             src={Logo}
             alt="Logo UPRO"
             className="max-w-[100px] py-4"
-            width={90}
-            height={90}
+            width={100}
+            height={110}
           />
         </Link>
-      <div className="py-6 mx-auto flex gap-6 ">
+      <div className="mx-auto flex gap-20 text-grisOscuro ">
       {navItemsLeft.map((navItem) => (
             <Link href={navItem.path} key={navItem.path} {...navItem}  >{navItem.text}</Link>
           ))}
       </div>
-    
+      <button className="bg-grisOscuro hover:bg-azulMedio text-white  py-2 px-4 rounded-full">
+        EN / ES
+      </button>
       </nav>
       </header>
 

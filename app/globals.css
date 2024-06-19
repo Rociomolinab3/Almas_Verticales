@@ -972,9 +972,8 @@ video {
   background-image: linear-gradient(to right bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://uprosanluis.edu.ar/assets/images/paginaWeb/Sedes/detalle/bg/lacalerap.webp');
 }
 
-
 .bg-main {
-  background-image: linear-gradient(to right bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.3)), url('https://uprosanluis.edu.ar/assets/images/paginaWeb/home/imagenPrincipal.webp');
+  background-image: linear-gradient(to right bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.3)), url('https://firebasestorage.googleapis.com/v0/b/almas-verticales.appspot.com/o/principal.jpg?alt=media&token=e53651bd-5539-4bee-807a-768f9bfd5e16');
 }
 
 .bg-sedes {
