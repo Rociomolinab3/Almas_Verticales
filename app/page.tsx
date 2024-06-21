@@ -1,11 +1,11 @@
-import { PrimerSeccion, Navbar, SeccionCuadrados } from '@/components';
+import { TopSection, Navbar, IconsSection  } from '@/components';
 import React from "react";
 
 export default function Home() {
   return (
     <main>
-      <PrimerSeccion/>
-      <SeccionCuadrados/>
+      <TopSection/>
+      <IconsSection/>
     </main>
   );
 }

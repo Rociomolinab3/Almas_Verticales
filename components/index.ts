@@ -1,3 +1,3 @@
 export * from './navbar/Navbar';
-export * from './primerSeccion/primerSeccion';
-export * from './seccionCuadrados/seccionCuadrados';
+export * from './topSection/topSection';
+export * from './iconsSection/iconsSection';

@@ -26,7 +26,7 @@ export default function RootLayout({
       <head>
       </head>
       <body className={montserrat.className}>
-      <header className="fixed w-full top-0 scroll__header text-light tracking-wider text-xl py-16 bg-grisClaro" >
+      <header className="fixed w-full top-0 scroll__header text-light  text-xl py-12 lg:py-14 bg-grisClaro" >
         <Navbar/>
         </header>
         {children}

@@ -15,10 +15,10 @@ export const montserrat200 = Montserrat({
     weight: '400'
   })
 
-export const PrimerSeccion = () => {
+export const TopSection = () => {
   return (
-    <section className="bg-main bg-no-repeat flex flex-col items-center justify-center text-light bg-cover bg-center lg:py-[25%]">
-      <div className="absolute inset-0 bg-black bg-opacity-30 flex flex-col justify-center items-center text-center text-white">
+    <section className="w-full bg-main bg-no-repeat flex flex-col py-[55%] items-center justify-center text-light bg-cover bg-center lg:py-[15%]">
+      <div className="absolut inset-0 flex flex-col justify-center items-center text-center text-white">
         <h2 className={`${montserrat200.className} text-2xl md:text-3xl`}>NUESTRO PROYECTO</h2>
         <p className="text-lg md:text-2xl font-semibold text-turquesa">
           DESDE USUAHIA HASTA ALASKA

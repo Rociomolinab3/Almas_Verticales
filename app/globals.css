@@ -101,7 +101,7 @@ body {
 
   @keyframes headerScroll {
     to {
-      background: #d6006d;
+      background: #c9d8ec;
     }
   }
 }
@@ -681,7 +681,7 @@ video {
 
 @keyframes headerScroll {
   to {
-    background: #d6006d;
+    background: #c9d8ec;
   }
 }
 
@@ -973,7 +973,7 @@ video {
 }
 
 .bg-main {
-  background-image: linear-gradient(to right bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.3)), url('https://firebasestorage.googleapis.com/v0/b/almas-verticales.appspot.com/o/principal.jpg?alt=media&token=e53651bd-5539-4bee-807a-768f9bfd5e16');
+  background-image: linear-gradient(to right bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url('https://firebasestorage.googleapis.com/v0/b/almas-verticales.appspot.com/o/principal.jpg?alt=media&token=e53651bd-5539-4bee-807a-768f9bfd5e16');
 }
 
 .bg-sedes {
@@ -1154,7 +1154,7 @@ video {
 }
 
 .bg-menu {
-  background-image: url('../assets/images/menu.png');
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/almas-verticales.appspot.com/o/lists_48dp_FILL0_wght400_GRAD0_opsz48.svg?alt=media&token=9a22e9a9-fba6-432d-9d08-175226373a85');
 }
 
 .bg-cover {
@@ -1330,6 +1330,10 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.peer-checked:bg-grisClaro {
+  background-color: var(--color-grisClaro); /* Asegúrate de definir esta variable en tu configuración de Tailwind CSS o utiliza un color específico aquí */
+}
+
 .pulser{
   width:30px;
   heigth:30px;
@@ -1367,7 +1371,7 @@ hr{
 }
 
 .logo-icon:hover {
-  fill: #d6006d; /* Cambia el color a pink-500 */
+  fill: #c9d8ec; /* Cambia el color a pink-500 */
   transition: fill 0.3s ease; /* Agrega una transición suave */
 }
 
