@@ -61,30 +61,6 @@ body {
   .subtitle-secondary-smaller-uppercase {
     @apply text-secondary text-center p-1 text-xs uppercase;
   }
-  .button-aguaLuz {
-    @apply text-light uppercase font-bold py-3 px-6 bg-aguaLuz rounded-md;
-  }
-  .button-aguaMedio {
-    @apply text-light uppercase font-bold py-3 px-6 bg-aguaMedia rounded-md;
-  }
-  .button-azulLuz{
-    @apply text-light uppercase font-bold py-3 px-6 bg-azulLuz rounded-md ;
-  }
-  .button-azulLuzLight{
-    @apply text-light uppercase font-bold py-3 px-6 bg-azulLuzLight rounded-md ;
-  } 
-  .button-azulSombra {
-    @apply text-light uppercase font-bold py-3 px-6 bg-azulLuzLight rounded-md;
-  }
-  .button-magenta{
-    @apply text-light uppercase font-bold py-3 px-6 bg-magenta rounded-md ;
-  }
-  .button-morado{
-    @apply text-light uppercase font-bold py-3 px-6 bg-morado rounded-md;
-  }
-  .button-grisLuz{
-    @apply text-light uppercase font-bold py-3 px-6 text-center bg-grisLuz rounded-md ;
-  }
   .button-grisMedio{
     @apply text-light uppercase font-bold py-3 px-6 bg-grisMedio rounded-md ;
   }
