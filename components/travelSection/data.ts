@@ -3,7 +3,7 @@ export const higestPoints = [
       id:1,
       src: "https://firebasestorage.googleapis.com/v0/b/almas-verticales.appspot.com/o/HPargentina.webp?alt=media&token=8a2c1928-4c7d-4612-9fc3-77ade0e3b1f6",
       alt: "Punto más alto de Argentina",
-      title: "Punto más alto de Argentina, Cerro Aconcagua",
+      title: "Punto más alto de Arg., Cerro Aconcagua",
     },
     {
         id:2,
