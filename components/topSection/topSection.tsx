@@ -3,13 +3,13 @@ import LogoWhatsapp from "@/assets/logos/Whatsapp.svg";
 import LogoYoutube from "@/assets/logos/Youtube.svg";
 import { Montserrat } from "next/font/google";
 
-export const montserrat200 = Montserrat({
+ const montserrat200 = Montserrat({
     subsets: ['latin'],
     display: 'swap',
     weight: '200'
   })
 
-  export const montserrat400 = Montserrat({
+  const montserrat400 = Montserrat({
     subsets: ['latin'],
     display: 'swap',
     weight: '400'
@@ -19,7 +19,7 @@ export const TopSection = () => {
   return (
     <section className="w-full bg-main bg-no-repeat flex flex-col py-[55%] items-center justify-center text-light bg-cover bg-center lg:py-[15%]">
       <div className="absolut inset-0 flex flex-col justify-center items-center text-center text-white">
-        <h2 className={`${montserrat200.className} text-2xl md:text-3xl`}>NUESTRO PROYECTO</h2>
+        <h3 className={`${montserrat200.className} text-2xl md:text-3xl`}>NUESTRO PROYECTO</h3>
         <p className="text-lg md:text-2xl font-semibold text-turquesa">
           DESDE USUAHIA HASTA ALASKA
         </p>
