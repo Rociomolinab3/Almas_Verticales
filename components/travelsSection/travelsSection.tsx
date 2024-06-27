@@ -16,7 +16,7 @@ const montserrat400 = Montserrat({
 export const CardTravel = () => {
   return (
     <div className={`${montserrat400.className} flex flex-col items-center text-center py-8`}>
-      <h2 className="text-3xl mb-2">Acompáñanos en este viaje</h2>
+      <h2 className="text-3xl mb-2">¡Acompáñanos en este viaje!</h2>
       <p className={`w-[60%] text-xl mb-6`}>
         Somos Fiore y Lolo. Dos almas unidas por el amor y el montañismo.
         Nuestro objetivo es conectar Ushuaia con Alaska, subiendo en el

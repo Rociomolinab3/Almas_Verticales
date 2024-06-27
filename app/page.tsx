@@ -1,4 +1,4 @@
-import { TopSection, Navbar, IconsSection, CardTravel, Collaborations } from '@/components';
+import { TopSection, Navbar, IconsSection, CardTravel, Collaborations, TextSection, ContactSection } from '@/components';
 import React from "react";
 
 export default function Home() {
@@ -8,6 +8,8 @@ export default function Home() {
       <IconsSection/>
       <CardTravel/>
       <Collaborations/>
+      <TextSection/>
+      <ContactSection/>
     </main>
   );
 }

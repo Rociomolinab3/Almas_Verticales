@@ -973,7 +973,7 @@ video {
 }
 
 .bg-fondoLineas {
-  background-image: linear-gradient(to right bottom, rgba(182,186,186,0.1), rgba(231,234,234,1)), url('https://uprosanluis.edu.ar/assets/images/paginaWeb/fondos/Fondolineasok.webp');
+  background-image: linear-gradient(to right bottom,  rgba(231,234,234,0.9),rgba(182,186,186,0.4)), url('https://firebasestorage.googleapis.com/v0/b/almas-verticales.appspot.com/o/fondo3op2.webp?alt=media&token=3f21e0a3-2094-427d-94e3-170ec399c5e4');
 }
 
 .bg-grisFondoN {
