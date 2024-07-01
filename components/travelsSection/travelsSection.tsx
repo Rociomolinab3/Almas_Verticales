@@ -19,7 +19,7 @@ export const CardTravel = () => {
       <h2 className="text-3xl mb-2">¡Acompáñanos en este viaje!</h2>
       <p className={`w-[60%] text-xl mb-6`}>
         Somos Fiore y Lolo. Dos almas unidas por el amor y el montañismo.
-        Nuestro objetivo es conectar Ushuaia con Alaska, subiendo en el
+        Nuestro objetivo es conectar Ushuaia con Alaska, subiendo el
         pico más alto de cada país.
       </p>
       <div className="flex gap-8 flex-col md:flex-row">
