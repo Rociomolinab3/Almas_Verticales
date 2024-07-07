@@ -7,7 +7,7 @@ import LogoAltitude from '@/assets/logos/altitude.svg';
 
 export const IconsSection = () => {
     return (
-        <section className="bg-azulOscuro py-4 px-4">
+        <section className="bg-gray-900 py-4 px-4">
             <div className="flex flex-col items-center justify-evenly text-lg text-turquesa text-center md:flex-row">
                 <div className="flex-1 flex flex-col items-center justify-center gap-4">
                     <LogoFitness width="50" height="50" />

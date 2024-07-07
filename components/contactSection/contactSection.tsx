@@ -2,21 +2,21 @@ import Image from "next/image";
 
 export const ContactSection = () => {
     return (
-        <div className="flex flex-col md:flex-row bg-gray-900 text-white items-center rounded-lg relative">
+        <div className="flex flex-col md:flex-row bg-gray-900 text-white items-center rounded-t-lg relative">
             <div id="cuadradoGris" className="w-full md:w-[60%] md:px-10">
                 <div className="p-6">
-                    <h2 className="text-4xl font-bold mb-4">Your Source for Green Energy Updates</h2>
+                    <h2 className="text-4xl font-bold mb-4">Mantenete informado</h2>
                     <p className="text-lg mb-6">
-                        Stay in the loop with our Green Horizon newsletter, where we deliver bite-sized insights into the latest green energy solutions.
+                        Te invitamos a suscribirte, para que seas el primero en enterarte de nuestras noticias y trekkings.
                     </p>
                     <div className="flex">
                         <input 
                             type="email" 
-                            placeholder="Your e-mail..." 
+                            placeholder="Tu e-mail..." 
                             className="p-3 rounded-l-lg text-gray-900 w-full max-w-xs"
                         />
                         <button className="bg-teal-500 text-white p-3 rounded-r-lg hover:bg-teal-600 transition duration-300">
-                            Get in touch
+                            Suscribirme
                         </button>
                     </div>
                 </div>

@@ -77,14 +77,10 @@ body {
 
   @keyframes headerScroll {
     to {
-      background: #c9d8ec;
+      background: #2f6d92;
     }
   }
 }
-
-/*
-! tailwindcss v3.3.5 | MIT License | https://tailwindcss.com
-*/
 
 /*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
@@ -657,7 +653,7 @@ video {
 
 @keyframes headerScroll {
   to {
-    background: #c9d8ec;
+    background: #2f6d92
   }
 }
 
@@ -876,243 +872,23 @@ video {
   background-image: linear-gradient(to right bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://uprosanluis.edu.ar/assets/images/paginaWeb/home/Contador.webp');
 }
 
-.bg-fondo01 {
-  background-image: linear-gradient(to right bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://uprosanluis.edu.ar/assets/images/paginaWeb/dashboard/Fondo01.webp');
+.bg-fondoAbout {
+  background-image: linear-gradient(to right bottom, rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('https://firebasestorage.googleapis.com/v0/b/almas-verticales.appspot.com/o/fondo2.svg?alt=media&token=0e4878fa-f608-499c-86e0-347ee5a12c29');
 }
 
-.bg-fondo04 {
-  background-image: linear-gradient(to right bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://uprosanluis.edu.ar/assets/images/paginaWeb/fondos/Fondo%204-01.webp');
+.bg-fondoMap {
+  background-image: linear-gradient(to right bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('https://firebasestorage.googleapis.com/v0/b/almas-verticales.appspot.com/o/project%2FMapaAmerica.webp?alt=media&token=d9137537-b16e-4d40-9b45-417539ffd0b4');
 }
 
-.bg-fondo04op2 {
-  background-image: linear-gradient(to right bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.1)), url('https://uprosanluis.edu.ar/assets/images/paginaWeb/fondos/Fondo-4-op2.webp');
-}
-
-.bg-fondo04rev {
-  background-image: linear-gradient(to right bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.1)), url('https://uprosanluis.edu.ar/assets/images/paginaWeb/fondos/Fondo-4-op2.webp');
-}
-
-.bg-fondoTriang{
-  background-image: linear-gradient(to right bottom, rgba(0,0,0,0), rgba(0,0,0,0)), url('https://uprosanluis.edu.ar/assets/images/paginaWeb/fondos/Tri%C3%A1ngulosop9.webp');
-}
-
-.bg-fondoTriangrev{
-  background-image: linear-gradient(to right bottom, rgba(0,0,0,0), rgba(0,0,0,0)), url('https://uprosanluis.edu.ar/assets/images/paginaWeb/fondos/Tri%C3%A1ngulosop92.webp');
-}
-
-.bg-novedades{
-  background-image: linear-gradient(to right bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://uprosanluis.edu.ar/assets/images/paginaWeb/home/Campus.webp');
-}
-
-.bg-sanLuis{
-  background-image: linear-gradient(to right bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://uprosanluis.edu.ar/assets/images/paginaWeb/Sedes/detalle/bg/sanluisB.webp');
-}
-
-.bg-sanLuisCent{
-  background-image: linear-gradient(to right bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://uprosanluis.edu.ar/assets/images/paginaWeb/Sedes/detalle/bg/CentenarioB.webp');
-}
-
-.bg-sanLuisTercer{
-  background-image: linear-gradient(to right bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://uprosanluis.edu.ar/assets/images/paginaWeb/Sedes/detalle/bg/TercerRotB.webp');
-}
-
-.bg-sanLuisSerranias{
-  background-image: linear-gradient(to right bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://uprosanluis.edu.ar/assets/images/paginaWeb/Sedes/detalle/bg/SerraniasB.webp');
-}
-
-.bg-mercedes{
-  background-image: linear-gradient(to right bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://uprosanluis.edu.ar/assets/images/paginaWeb/Sedes/detalle/bg/vmercedesB.webp');
-}
-
-.bg-tilisarao{
-  background-image: linear-gradient(to right bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://uprosanluis.edu.ar/assets/images/paginaWeb/Sedes/detalle/bg/TilisaraoBa.webp');
-}
-
-.bg-merlo{
-  background-image: linear-gradient(to right bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://uprosanluis.edu.ar/assets/images/paginaWeb/Sedes/detalle/bg/merlob2.webp');
-}
-
-.bg-quines{
-  background-image: linear-gradient(to right bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://uprosanluis.edu.ar/assets/images/paginaWeb/Sedes/detalle/bg/quines.webp');
-}
-
-.bg-sanmartin{
-  background-image: linear-gradient(to right bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://uprosanluis.edu.ar/assets/images/paginaWeb/Sedes/detalle/bg/SanMartinBa.webp');
-}
-
-.bg-candelaria{
-  background-image: linear-gradient(to right bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://uprosanluis.edu.ar/assets/images/paginaWeb/Sedes/detalle/bg/candelariaB.webp');
-}
-
-.bg-lacalera{
-  background-image: linear-gradient(to right bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://uprosanluis.edu.ar/assets/images/paginaWeb/Sedes/detalle/bg/lacalerap.webp');
+.bg-fondoBlog {
+  background-image: linear-gradient(to right bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('https://firebasestorage.googleapis.com/v0/b/almas-verticales.appspot.com/o/blog%2Fcamino.webp?alt=media&token=0ee54ef0-8f3b-437c-afe7-a9a06fd4534c');
 }
 
 .bg-main {
   background-image: linear-gradient(to right bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url('https://firebasestorage.googleapis.com/v0/b/almas-verticales.appspot.com/o/principal.jpg?alt=media&token=e53651bd-5539-4bee-807a-768f9bfd5e16');
 }
-
-.bg-sedes {
-  background-image: linear-gradient(to right bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.2)), url('https://uprosanluis.edu.ar/assets/images/paginaWeb/Sedes/bgSedes.webp');
-}
-
-.bg-secretarias {
-  background-image: linear-gradient(to right bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.2)), url('https://uprosanluis.edu.ar/assets/images/paginaWeb/Secretar%C3%ADa/secretriasb1.webp');
-}
-
-.bg-espacioUpro {
-  background-image: linear-gradient(to right bottom, rgba(22, 28, 65, 0.9), rgba(22, 28, 65, 0.9)), url('https://uprosanluis.edu.ar/assets/images/paginaWeb/Nosotros/sedePoetas.webp');
-}
-
-.bg-contacto {
-  background-image: linear-gradient(to right bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.2)), url('https://uprosanluis.edu.ar/assets/images/paginaWeb/contacto/contactoB.webp');
-}
-
-.bg-faq {
-  background-image: linear-gradient(to right bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.2)), url('https://uprosanluis.edu.ar/assets/images/paginaWeb/fondos/preguntas-freqw.webp');
-}
-
 .bg-fondoLineas {
-  background-image: linear-gradient(to right bottom,  rgba(231,234,234,0.9),rgba(182,186,186,0.4)), url('https://firebasestorage.googleapis.com/v0/b/almas-verticales.appspot.com/o/fondo3op2.webp?alt=media&token=3f21e0a3-2094-427d-94e3-170ec399c5e4');
-}
-
-.bg-grisFondoN {
-  background-image: linear-gradient(to bottom, rgba(231,234,234,1) 38%, rgba(0,0,0,0) 38%);
-}
-
-.bg-grisFondoE {
-  background-image: linear-gradient(to bottom,rgba(0,0,0,0) 38%, rgba(231,234,234,1) 38% );
-}
-
-.bg-carreras {
-  background-image: linear-gradient(to right bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.2)), url('https://uprosanluis.edu.ar/assets/images/paginaWeb/carreras/CarrerasB.webp');
-}
-
-.bg-aluminio {
-  background-image: linear-gradient(to right bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.2)), url('https://uprosanluis.edu.ar/assets/images/paginaWeb/carreras/aluminio/Carpinter%C3%ADaB.webp');
-}
-
-.bg-gerenciamiento {
-  background-image: linear-gradient(to right bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.2)), url('https://uprosanluis.edu.ar/assets/images/paginaWeb/carreras/gerenciamientoGastronomico/gerenciamientoB.webp');
-}
-
-.bg-confeccionista {
-  background-image: linear-gradient(to right bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.2)), url('https://uprosanluis.edu.ar/assets/images/paginaWeb/carreras/confeccionista/confeccionistaB1.webp');
-}
-
-.bg-sensores {
-  background-image: linear-gradient(to right bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.2)), url('https://uprosanluis.edu.ar/assets/images/paginaWeb/carreras/sensoresyneum/SensoresYNeumaticaB.webp');
-}
-
-.bg-mecanicaInt {
-  background-image: linear-gradient(to right bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.2)), url('https://uprosanluis.edu.ar/assets/images/paginaWeb/carreras/mecanica/MecanicaB.webp');
-}
-
-.bg-cocinaProf {
-  background-image: linear-gradient(to right bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.2)), url('https://uprosanluis.edu.ar/assets/images/paginaWeb/carreras/cocina/CocinaB.webp');
-}
-
-.bg-durlock {
-  background-image: linear-gradient(to right bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.2)), url('https://uprosanluis.edu.ar/assets/images/paginaWeb/carreras/durlock/Durlock1B.webp');
-}
-
-/* .bg-maqAgricola {
-  background-image: linear-gradient(to right bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.2)), url('');
-} */
-
-.bg-plc {
-  background-image: linear-gradient(to right bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.2)), url('https://uprosanluis.edu.ar/assets/images/paginaWeb/carreras/plc/PLC1B.webp');
-}
-
-.bg-estilista {
-  background-image: linear-gradient(to right bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.2)), url('https://uprosanluis.edu.ar/assets/images/paginaWeb/carreras/estilista/EstilistaB.webp');
-}
-
-.bg-constSeco {
-  background-image: linear-gradient(to right bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.2)), url('https://uprosanluis.edu.ar/assets/images/paginaWeb/carreras/construccionEnSeco/ConstruccionEnSecoB.webp');
-}
-
-.bg-autocad {
-  background-image: linear-gradient(to right bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.2)), url('https://uprosanluis.edu.ar/assets/images/paginaWeb/carreras/autocad/AutocadB.webp');
-}
-
-.bg-reparacion {
-  background-image: linear-gradient(to right bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.2)), url('https://uprosanluis.edu.ar/assets/images/paginaWeb/carreras/reparacionElectrod/ReparacionB.webp');
-}
-
-.bg-tapiceria {
-  background-image: linear-gradient(to right bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.2)), url('https://uprosanluis.edu.ar/assets/images/paginaWeb/carreras/tapiceria/tapiceriaB.webp');
-}
-
-.bg-maquinaria {
-  background-image: linear-gradient(to right bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.2)), url('https://uprosanluis.edu.ar/assets/images/paginaWeb/carreras/maquinariaAgricola/maquinariaB.webp');
-}
-
-.bg-imagenPers {
-  background-image: linear-gradient(to right bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.2)), url('https://uprosanluis.edu.ar/assets/images/paginaWeb/carreras/imagenPersonal/imagenPersonalB.webp');
-}
-
-.bg-electricista {
-  background-image: linear-gradient(to right bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.2)), url('https://uprosanluis.edu.ar/assets/images/paginaWeb/carreras/electricista/ElectricistaB.webp');
-}
-
-.bg-electronica {
-  background-image: linear-gradient(to right bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.2)), url('https://uprosanluis.edu.ar/assets/images/paginaWeb/carreras/electronica/electronicap.webp');
-}
-
-.bg-bobinados{
-  background-image: linear-gradient(to right bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.2)), url('https://uprosanluis.edu.ar/assets/images/paginaWeb/carreras/bobinados/bobinadosB.webp');
-}
-
-.bg-moto {
-  background-image: linear-gradient(to right bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.2)), url('https://uprosanluis.edu.ar/assets/images/paginaWeb/carreras/reparaTuMoto/ReparatumotoB.webp');
-}
-
-.bg-refrigeracion{
-  background-image: linear-gradient(to right bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.2)), url('https://uprosanluis.edu.ar/assets/images/paginaWeb/carreras/refrigeracion/RepRefrigeracionB.webp');
-}
-
-.bg-3d {
-  background-image: linear-gradient(to right bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.2)), url('https://uprosanluis.edu.ar/assets/images/paginaWeb/carreras/impresion3d/Impresion3DB.webp');
-}
-
-.bg-mdf {
-  background-image: linear-gradient(to right bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.2)), url('https://uprosanluis.edu.ar/assets/images/paginaWeb/carreras/mdf/CarpinteriaMDFB.webp');
-}
-
-.bg-gasista {
-  background-image: linear-gradient(to right bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.2)), url('https://uprosanluis.edu.ar/assets/images/paginaWeb/carreras/gasista/GasistaB.webp');
-}
-
-.bg-sanitarista {
-  background-image: linear-gradient(to right bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.2)), url('https://uprosanluis.edu.ar/assets/images/paginaWeb/carreras/sanitarista/SanitaristaB.webp');
-}
-
-.bg-construye {
-  background-image: linear-gradient(to right bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.2)), url('https://uprosanluis.edu.ar/assets/images/paginaWeb/carreras/consrtuyeTuVivienda/ConttruyeTuViviendaB.webp');
-}
-
-.bg-soldador {
-  background-image: linear-gradient(to right bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.2)), url('https://uprosanluis.edu.ar/assets/images/paginaWeb/carreras/soldador/SoldadorB.webp');
-}
-
-.bg-barberia {
-  background-image: linear-gradient(to right bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.2)), url('https://uprosanluis.edu.ar/assets/images/paginaWeb/carreras/barberia/barberiab.webp');
-}
-.bg-energias {
-  background-image: linear-gradient(to right bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.2)), url('https://uprosanluis.edu.ar/assets/images/paginaWeb/carreras/energiasRenov/energiasB1.webp');
-}
-
-.bg-robotica {
-  background-image: linear-gradient(to right bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.2)), url('https://uprosanluis.edu.ar/assets/images/paginaWeb/carreras/robotica/RoboticaB.webp');
-}
-
-.bg-noticias {
-  background-image: linear-gradient(to right bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.2)), url('https://uprosanluis.edu.ar/assets/images/paginaWeb/Noticias/NoticiasB.webp');
-}
-
-.bg-nosotros {
-  background-image: linear-gradient(to right bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.2)), url('https://uprosanluis.edu.ar/assets/images/paginaWeb/Nosotros/nosotrosB.webp');
+  background-image: linear-gradient(to right bottom,  rgba(231,234,234,0.9),rgba(182,186,186,0.4)), url('https://firebasestorage.googleapis.com/v0/b/almas-verticales.appspot.com/o/fondo3op3.webp?alt=media&token=bbe3f675-fdb6-4f11-a18d-186885411035');
 }
 
 .bg-eventos-why-mobile {

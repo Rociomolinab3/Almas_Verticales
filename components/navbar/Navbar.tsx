@@ -6,9 +6,9 @@ import Logo from "@/assets/images/Logo_Almas _verticales.png"
 
 
 const navItemsLeft = [
-    { path: "/", text: "SOBRE NOSOTROS" },
-    { path: "/", text: "NUESTRO PROYECTO" },
-    { path: "/", text: "BLOG" },
+    { path: "/about", text: "SOBRE NOSOTROS" },
+    { path: "/project", text: "NUESTRO PROYECTO" },
+    { path: "/blog", text: "BLOG" },
     { path: "/", text: "TIENDA" },
   ];
 
@@ -22,9 +22,9 @@ const navItemsLeft = [
             <Image
               src={Logo}
               alt="Logo UPRO"
-              className="max-w-[100px] py-2"
-              width={100}
-              height={110}
+              className="max-w-[100px] pt-1"
+              width={90}
+              height={90}
             />
           </Link>
           <div className="flex flex-1 justify-evenly items-center mx-auto text-lg text-grisOscuro whitespace-nowrap">
@@ -40,7 +40,7 @@ const navItemsLeft = [
         </nav>
 
         {/* Navbar Mobile */}
-        <nav className="wrapper flex bg-grisClaro  items-center justify-between lg:hidden peer-checked:bg-grisClaro">
+        <nav className="wrapper flex bg-azulOscuro  items-center justify-between lg:hidden peer-checked:bg-grisClaro">
             <div id="logo">
             <Link href="/">
             <Image

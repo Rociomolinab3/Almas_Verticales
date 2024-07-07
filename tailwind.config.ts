@@ -11,6 +11,7 @@ const config: Config = {
       colors: {
         'azulOscuro':'#132a54',
         'azulMedio':'#2f6d92',
+        'azulMedioOscuro':'#2f5892',
         'turquesa':'#64b9bd',
         'celeste':'#c9d8ec',
         'naranja':'#facc88',
