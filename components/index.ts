@@ -6,3 +6,4 @@ export * from './collaborationsSection/collaborationsSection';
 export * from './textSection/textSection';
 export * from './contactSection/contactSection';
 export * from './footerSection/footerSection';
+export * from './cardBlog/cardBlog';

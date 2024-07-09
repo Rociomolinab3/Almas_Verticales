@@ -27,7 +27,7 @@ const navItemsLeft = [
               height={90}
             />
           </Link>
-          <div className="flex flex-1 justify-evenly items-center mx-auto text-lg text-grisOscuro whitespace-nowrap">
+          <div className="flex flex-1 justify-evenly items-center mx-auto text-lg text-white whitespace-nowrap">
             {navItemsLeft.map((navItem) => (
               <Link href={navItem.path} key={navItem.path} {...navItem}>
                 {navItem.text}

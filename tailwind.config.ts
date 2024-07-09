@@ -18,6 +18,7 @@ const config: Config = {
         'grisOscuro':'#2e232b',
         'grisMedio':'#8f99a2',
         'grisMedioClaro':'#afb1b3',
+        'grisMedioOscuro':'#424547',
         'grisClaro':'#d5d5d5',
         'titulo': '#343a40',
         'texto' : '#495057',
