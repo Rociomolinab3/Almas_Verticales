@@ -32,14 +32,14 @@ export default function Project() {
         </div>
       </section>
       <section className="flex flex-row">
-        <div id="izq" className="w-[60%] bg-grisClaro px-[4%] py-[3%]">
+        <div id="izq" className="w-[60%] bg-grisMedio px-[4%] py-[3%]">
           <div className="flex flex-col">
             {dataBlog.map((article, index) => (
               <CardBlog key={index + 1} cardBlog={article} />
             ))}
           </div>
         </div>
-        <div id="der" className="w-[40%] bg-grisClaro py-[4%]">
+        <div id="der" className="w-[40%] bg-grisMedio py-[4%]">
           <div className="bg-azulOscuro rounded-2xl mx-[10%] px-[4%] py-[4%] flex flex-col gap-6">
             <div className="bg-grisClaro rounded-xl p-4 ">
               <div className="flex flex-row items-center gap-2">
@@ -51,11 +51,11 @@ export default function Project() {
             <div className="bg-grisClaro rounded-xl p-4">
               <div className="flex flex-col gap-2">
                 <p className="text-grisOscuro font-bold">Destacados </p>
-                <div id="dest1" className="flex bg-grisMedio rounded-xl">
+                <div id="dest1" className="flex bg-celeste shadow-cyan-800 shadow-sm  rounded-xl">
                   <div className="w-[50%] m-2">
                   <Image
                       className="object-cover rounded-2xl"
-                      src="https://firebasestorage.googleapis.com/v0/b/almas-verticales.appspot.com/o/blog%2Fdestacada2.webp?alt=media&token=f0403f83-30a8-463d-b677-1575d0b9b2b0"
+                      src="https://firebasestorage.googleapis.com/v0/b/almas-verticales.appspot.com/o/blog%2Fdestacada2.webp?alt=media&token=14840de4-f9e4-4ef5-8d9c-c74dc87e0b04"
                       alt="destacada1"
                       width={250}
                       height={300}
@@ -71,11 +71,11 @@ export default function Project() {
                    {/* <p className="pt-4 text-sm text-azulOscuro font-bold">VER</p> */}
                   </div>
                 </div>
-                <div id="dest2" className="flex bg-grisMedio rounded-xl">
+                <div id="dest2" className="flex bg-celeste shadow-cyan-800 shadow-sm rounded-xl">
                   <div className="w-[50%] m-2">
                   <Image
                       className="object-cover rounded-2xl"
-                      src="https://firebasestorage.googleapis.com/v0/b/almas-verticales.appspot.com/o/blog%2Fdestacada1.webp?alt=media&token=5d64f23a-f57b-444c-969c-2015df7d350d"
+                      src="https://firebasestorage.googleapis.com/v0/b/almas-verticales.appspot.com/o/blog%2Fdestacada1.webp?alt=media&token=a615b038-5c78-46f0-8659-950d087d7505"
                       alt="destacada1"
                       width={250}
                       height={300}

@@ -34,7 +34,7 @@ interface Props {
 
 function CardBlog({ cardBlog }: Props) {
   return (
-    <div className="bg-grisMedioClaro rounded-2xl flex flex-row m-4">
+    <div className="bg-grisClaro shadow-sm shadow-slate-500 rounded-2xl flex flex-row m-4">
       <div className="py-4 pl-4 w-[40%]">
         <Image
           className="object-cover rounded-2xl"
