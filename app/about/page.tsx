@@ -11,7 +11,7 @@ export default function About() {
       <div className="p-8 w-[90%] flex">
         <div className="w-[60%] pr-4">
           <Image
-            src="https://firebasestorage.googleapis.com/v0/b/almas-verticales.appspot.com/o/Filonetawebp.webp?alt=media&token=7d0c7baa-1cfb-41e2-baea-e8021c8e174b"
+            src="https://firebasestorage.googleapis.com/v0/b/almas-verticales.appspot.com/o/about%2Faboutus2.webp?alt=media&token=2ecc4de3-4df6-43be-a004-933c9a272c21"
             alt="Example"
             width={1400}
             height={900}

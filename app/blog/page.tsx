@@ -23,7 +23,7 @@ export default function Project() {
     <div className="bg-grisOscuro">
       <section className="w-full bg-fondoBlog bg-no-repeat flex flex-col py-[65%] items-center justify-center text-light bg-cover bg-center lg:py-[20%]">
         <div className="absolut inset-0 flex flex-col justify-center items-center text-center text-white">
-          <h3 className={`${montserrat200.className} text-2xl md:text-3xl `}>
+          <h3 className={`${montserrat200.className} text-2xl md:text-3xl text-semibold `}>
             RECORRÉ JUNTO A NOSOTROS ESTE CAMINO
           </h3>
           <p className="text-lg pb-12 md:text-2xl font-semibold text-turquesa">
@@ -55,18 +55,18 @@ export default function Project() {
                   <div className="w-[50%] m-2">
                   <Image
                       className="object-cover rounded-2xl"
-                      src="https://firebasestorage.googleapis.com/v0/b/almas-verticales.appspot.com/o/blog%2Fdestacada2.webp?alt=media&token=14840de4-f9e4-4ef5-8d9c-c74dc87e0b04"
+                      src="https://firebasestorage.googleapis.com/v0/b/almas-verticales.appspot.com/o/blog%2FCircuitoO-parte1.webp?alt=media&token=20cfd793-eea5-4d38-abf5-73e6ed4d9588"
                       alt="destacada1"
                       width={250}
                       height={300}
                     />
                   </div>
                   <div className="w-[50%] p-2 flex flex-col items-center justify-center gap-1">
-                   <p className="text-grisOscuro px-2 font-bold uppercase">Título del video destacado 1</p>
+                   <p className="text-grisOscuro px-2 font-bold uppercase">Circuito O en Torres del Paine</p>
                    <hr className="text-turquesa bg-azulOscuro w-[80%] h-1 rounded-2xl m-4"/>
                     <div className="flex items-center gap-2">
                         <CalendarGrisMedio className="h-4 w-4"/>
-                        <p className="text-grisOscuro text-sm">MAYO 05, 2024</p>
+                        <p className="text-grisOscuro text-sm">ENERO 13, 2024</p>
                     </div>
                    {/* <p className="pt-4 text-sm text-azulOscuro font-bold">VER</p> */}
                   </div>
@@ -75,7 +75,7 @@ export default function Project() {
                   <div className="w-[50%] m-2">
                   <Image
                       className="object-cover rounded-2xl"
-                      src="https://firebasestorage.googleapis.com/v0/b/almas-verticales.appspot.com/o/blog%2Fdestacada1.webp?alt=media&token=a615b038-5c78-46f0-8659-950d087d7505"
+                      src="https://firebasestorage.googleapis.com/v0/b/almas-verticales.appspot.com/o/blog%2FCircuitoO-parte1.webp?alt=media&token=20cfd793-eea5-4d38-abf5-73e6ed4d9588"
                       alt="destacada1"
                       width={250}
                       height={300}

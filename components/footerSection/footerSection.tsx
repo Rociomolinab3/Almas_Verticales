@@ -45,16 +45,16 @@ export const FooterSection = () => {
           </div>
         </div>
         <div id="redes" className="flex flex-col items-center">
-          <h2 className="font-semibold mb-4">Follow us</h2>
+          
           <div className="flex flex-col space-y-4">
             <a
-              href="https://facebook.com"
+              href=""
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center space-x-4 px-6 py-2 bg-azulMedio bg-opacity-50 rounded-full hover:bg-azulMedio"
             >
               <LogoInstagram className="h-6 w-6" />
-              <span>Facebook</span>
+              <span>Instagram</span>
             </a>
             <a
               href="https://instagram.com"
@@ -63,16 +63,25 @@ export const FooterSection = () => {
               className="flex items-center space-x-4 px-6 py-2 bg-azulMedio bg-opacity-50 rounded-full hover:bg-azulMedio"
             >
               <LogoWhatsapp className="h-6 w-6" />
-              <span>Instagram</span>
+              <span>Whatsapp</span>
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.youtube.com/@AlmasVerticales/videos"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center space-x-4 px-6 py-2 bg-azulMedio bg-opacity-50 rounded-full hover:bg-azulMedio"
             >
               <LogoYoutube className="h-6 w-6" />
-              <span>LinkedIn</span>
+              <span>You Tube</span>
+            </a>
+            <a
+              href="https://www.youtube.com/@AlmasVerticales/videos"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center space-x-4 px-6 py-2 bg-azulMedio bg-opacity-50 rounded-full hover:bg-azulMedio"
+            >
+              <LogoYoutube className="h-6 w-6" />
+              <span>Tik Tok</span>
             </a>
           </div>
         </div>

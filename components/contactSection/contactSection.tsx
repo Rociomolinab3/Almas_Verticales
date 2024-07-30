@@ -9,16 +9,18 @@ export const ContactSection = () => {
                     <p className="text-lg mb-6">
                         Te invitamos a suscribirte, para que seas el primero en enterarte de nuestras noticias y trekkings.
                     </p>
-                    <div className="flex">
+                    <form target="_blank" action="https://formsubmit.co/ce774cdd6b9405a9caced9f226cee500" method="POST" className="flex">
                         <input 
                             type="email" 
+                            name="email"
                             placeholder="Tu e-mail..." 
                             className="p-3 rounded-l-lg text-gray-900 w-full max-w-xs"
+                            required
                         />
-                        <button className="bg-teal-500 text-white p-3 rounded-r-lg hover:bg-teal-600 transition duration-300">
+                        <button type="submit" className="bg-teal-500 text-white p-3 rounded-r-lg hover:bg-teal-600 transition duration-300">
                             Suscribirme
                         </button>
-                    </div>
+                    </form>
                 </div>
             </div>
             <div id="izq" className="relative w-full md:w-[40%] flex items-center justify-center">
