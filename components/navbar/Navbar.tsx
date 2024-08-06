@@ -40,7 +40,7 @@ const navItemsLeft = [
         </nav>
 
         {/* Navbar Mobile */}
-        <nav className="wrapper flex bg-azulOscuro  items-center justify-between lg:hidden peer-checked:bg-grisClaro">
+        <nav className="wrapper flex items-center justify-between lg:hidden peer-checked:bg-grisClaro">
             <div id="logo">
             <Link href="/">
             <Image
