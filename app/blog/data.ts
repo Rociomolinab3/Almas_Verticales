@@ -30,7 +30,7 @@ export const dataBlog=[
       },
       {   
         id: '20',
-        srcPrincipal: 'https://firebasestorage.googleapis.com/v0/b/almas-verticales.appspot.com/o/blog%2Fibera.webp?alt=media&token=faa5adb4-2eaf-41d4-8b7c-8b110108589d',
+        srcPrincipal: 'https://firebasestorage.googleapis.com/v0/b/almas-verticales.appspot.com/o/blog%2Fsenderos%20increibles.webp?alt=media&token=163754b0-60f9-459b-96f5-ad5d03bd3270',
         alt: 'ejemplo alt 1',
         title: "Van tour y despedidas. +Rio Limay",
         subtitulo: "Mes de preparación y despedidas. Arranca la etapa 2 para la FiLoneta!",

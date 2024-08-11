@@ -3,44 +3,54 @@ import LogoWhatsapp from "@/assets/logos/Whatsapp.svg";
 import LogoYoutube from "@/assets/logos/Youtube.svg";
 import { Montserrat } from "next/font/google";
 
- const montserrat200 = Montserrat({
-    subsets: ['latin'],
-    display: 'swap',
-    weight: '200'
-  })
+const montserrat200 = Montserrat({
+  subsets: ["latin"],
+  display: "swap",
+  weight: "200",
+});
 
-  const montserrat400 = Montserrat({
-    subsets: ['latin'],
-    display: 'swap',
-    weight: '400'
-  })
+const montserrat400 = Montserrat({
+  subsets: ["latin"],
+  display: "swap",
+  weight: "400",
+});
 
 export const TopSection = () => {
   return (
     <section className="w-full bg-main bg-no-repeat flex flex-col py-[55%] items-center justify-center text-light bg-cover bg-center lg:py-[15%]">
       <div className="absolut inset-0 flex flex-col justify-center items-center text-center text-white">
-        <h3 className={`${montserrat200.className} text-2xl md:text-3xl`}>NUESTRO PROYECTO</h3>
+        <h3 className={`${montserrat200.className} text-2xl md:text-3xl`}>
+          NUESTRO PROYECTO
+        </h3>
         <p className="text-lg md:text-2xl font-semibold text-turquesa">
           DESDE USUAHIA HASTA ALASKA
         </p>
-        <h1 className={`${montserrat400.className} text-4xl md:text-6xl mt-8`}>ALMAS VERTICALES</h1>
+        <h1 className={`${montserrat400.className} text-4xl md:text-6xl mt-8`}>
+          ALMAS VERTICALES
+        </h1>
         <div className="flex space-x-10 mt-6">
           <a
             className="hover:bg-turquesa rounded-3xl transition-all"
-            href="https://www.instagram.com/tu-instagram"
+            href="https://www.instagram.com/almasverticales/"
             aria-label="Instagram"
+            target="_blank"
           >
             <LogoInstagram className="h-12 w-12" />
           </a>
-          <a 
-          href="https://www.youtube.com/tu-youtube" 
-          aria-label="YouTube"
-          className="hover:bg-turquesa rounded-3xl transition-all">
+          <a
+            href="https://www.youtube.com/@AlmasVerticales"
+            aria-label="YouTube"
+            className="hover:bg-turquesa rounded-3xl transition-all"
+            target="_blank"
+          >
             <LogoYoutube className="h-12 w-12" />
           </a>
-          <a href="https://wa.link/tu-whatsapp" 
-          aria-label="WhatsApp"
-          className="hover:bg-turquesa rounded-3xl transition-all">
+          <a
+            href="https://w.app/ijC80v"
+            aria-label="WhatsApp"
+            className="hover:bg-turquesa rounded-3xl transition-all"
+            target="_blank"
+          >
             <LogoWhatsapp className="h-12 w-12" />
           </a>
         </div>

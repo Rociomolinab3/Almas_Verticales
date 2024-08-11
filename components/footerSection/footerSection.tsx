@@ -11,17 +11,20 @@ export const FooterSection = () => {
         <div id="logo" className="mb-10 md:mb-0">
           <Image
             src={Logo}
-            alt="Logo UPRO"
+            alt="Logo AlmasVerticales"
             className="max-w-[100px] py-2"
             width={100}
             height={110}
           />
         </div>
-        <div id="recursos" className="flex flex-col md:flex-row text-center md:text-left mb-10 md:mb-0">
+        <div
+          id="recursos"
+          className="flex flex-col md:flex-row text-center md:text-left mb-10 md:mb-0"
+        >
           <div>
             <h2 className="font-semibold mb-2">Recursos</h2>
             <ul>
-            <li>
+              <li>
                 <a href="/about" className="hover:underline">
                   Sobre Nosotros
                 </a>
@@ -45,10 +48,9 @@ export const FooterSection = () => {
           </div>
         </div>
         <div id="redes" className="flex flex-col items-center">
-          
           <div className="flex flex-col space-y-4">
             <a
-              href=""
+              href="https://www.instagram.com/almasverticales/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center space-x-4 px-6 py-2 bg-azulMedio bg-opacity-50 rounded-full hover:bg-azulMedio"
@@ -57,7 +59,7 @@ export const FooterSection = () => {
               <span>Instagram</span>
             </a>
             <a
-              href="https://instagram.com"
+              href="https://w.app/ijC80v"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center space-x-4 px-6 py-2 bg-azulMedio bg-opacity-50 rounded-full hover:bg-azulMedio"
@@ -75,7 +77,7 @@ export const FooterSection = () => {
               <span>You Tube</span>
             </a>
             <a
-              href="https://www.youtube.com/@AlmasVerticales/videos"
+              href="https://www.tiktok.com/@almasverticales"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center space-x-4 px-6 py-2 bg-azulMedio bg-opacity-50 rounded-full hover:bg-azulMedio"
@@ -86,8 +88,10 @@ export const FooterSection = () => {
           </div>
         </div>
       </div>
-      <div className="text-center mt-10 text-sm">
+      <div className="text-center mt-10 text-sm hover:text-turquesa">
+        <a href="https://w.app/W6BnFe" target="_blank">
         &copy;2024 desarrollado por Rocio Molina
+        </a>
       </div>
     </div>
   );

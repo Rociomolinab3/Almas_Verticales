@@ -114,7 +114,7 @@ export const Collaborations: React.FC = () => {
               </p>
               <div className="flex gap-2 items-center">
               <LogoArrow className="h-6 w-6"/>
-              <a href="/tienda" className="font-bold uppercase">
+              <a href="/shop" className="font-bold uppercase">
               Ir a la tienda
               </a>
               </div>

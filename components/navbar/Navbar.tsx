@@ -9,7 +9,7 @@ const navItemsLeft = [
     { path: "/about", text: "SOBRE NOSOTROS" },
     { path: "/project", text: "NUESTRO PROYECTO" },
     { path: "/blog", text: "BLOG" },
-    { path: "/", text: "TIENDA" },
+    { path: "/shop", text: "TIENDA" },
   ];
 
   export const Navbar = () => {

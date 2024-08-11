@@ -34,8 +34,8 @@ interface Props {
 
 function CardBlog({ cardBlog }: Props) {
   return (
-    <div className="bg-grisClaro shadow-sm shadow-slate-500 rounded-2xl flex flex-row m-4">
-      <div className="py-4 pl-4 w-[40%]">
+    <div className="bg-grisClaro shadow-sm shadow-slate-500 rounded-2xl flex flex-col md:flex-row m-4">
+      <div className="flex items-center justify-center p-4 md:py-4 md:pl-4 w-full md:w-[40%]">
         <Image
           className="object-cover rounded-2xl"
           src={cardBlog.srcPrincipal}
@@ -44,7 +44,7 @@ function CardBlog({ cardBlog }: Props) {
           height={500}
         />
       </div>
-      <div className="flex flex-col px-6 py-2 w-[60%] justify-evenly">
+      <div className="flex flex-col px-6 py-2 w-full md:w-[60%] justify-evenly">
         <div
           className={`${montserrat400.className} text-grisOscuro flex items-center gap-2`}
         >
@@ -52,10 +52,10 @@ function CardBlog({ cardBlog }: Props) {
           <p className="">{cardBlog.fecha}</p>
         </div>
         <div>
-          <p className="text-gray-950 text-2xl ">{cardBlog.title}</p>
+          <p className="text-gray-950 text-2xl pt-4 md:pt-0">{cardBlog.title}</p>
           <p className={`${montserrat200.className} text-grisOscuro text-md`}>{cardBlog.subtitulo}</p>
         </div>
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center pt-4 md:pt-2">
           <button className="bg-grisMedio hover:bg-azulMedio items-center gap-2 justify-center rounded-full opacity-90 border-2 py-2 border-azulOscuro w-[60%] px-2  flex">
             <p className="text-azulOscuro font-bold">VER VIDEO</p>
             <PlayBlue className="h-10 w-10"/>
