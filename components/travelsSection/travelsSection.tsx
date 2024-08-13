@@ -39,7 +39,7 @@ export const CardTravel = () => {
                 <span className="text-grisOscuro text-sm text-start font-semibold">{article.title}</span>
                 <button className="bg-azulOscuro rounded-2xl p-1" >
                   <LogoArrow className="w-6 h-6"/>
-                {/* <svg className="w-6 h-6 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                {/* <svg className="w-6 h-6 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="https://www.w3.org/2000/svg">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
                 </svg> */}
                 </button> 
