@@ -65,11 +65,23 @@ export default function Project() {
               key={stage.id}
               className={`absolute ${stage.position} ${stage.responsivePosition} bg-azulMedio w-[15%] text-white p-2 rounded-xl`}
             >
-              <div className="flex flex-col  justify-between items-center ">
-                <h3 className="text-sm md:text-lg text-azulOscuro font-bold">{stage.title}</h3>
-                <button onClick={() => toggleStage(stage.id)} className="text-sm bg-grisMedio rounded-lg px-2 font-bold text-azulOscuro">
-                  {activeStage === stage.id ? "ver menos" : "ver más"}
-                </button>
+              <div className="flex flex-col justify-between items-center">
+                <h3 className="text-xs md:text-lg text-azulOscuro font-bold">{stage.title}</h3>
+                {activeStage === stage.id ? (
+                  <button 
+                    onClick={() => toggleStage(stage.id)} 
+                    className="text-sm bg-grisMedio rounded-lg px-2 font-bold text-azulOscuro"
+                  >
+                    ver menos
+                  </button>
+                ) : (
+                  <button 
+                    onClick={() => toggleStage(stage.id)} 
+                    className="text-sm bg-grisMedio rounded-lg px-2 font-bold text-azulOscuro hidden sm:block"
+                  >
+                    ver más
+                  </button>
+                )}
               </div>
               {activeStage === stage.id && (
                 <div className='bg-grisMedio rounded-xl px-2 pb-2 pt-1 mt-1'>
@@ -84,3 +96,4 @@ export default function Project() {
     </div>
   );
 }
+
