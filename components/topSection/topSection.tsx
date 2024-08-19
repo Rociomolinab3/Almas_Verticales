@@ -26,7 +26,7 @@ export const TopSection = () => {
           DESDE USUAHIA HASTA ALASKA
         </p>
         <h1 className={`${montserrat400.className} text-4xl md:text-6xl mt-8`}>
-          ALMAS VERTICALESS
+          ALMAS VERTICALES
         </h1>
         <div className="flex space-x-10 mt-6">
           <a
