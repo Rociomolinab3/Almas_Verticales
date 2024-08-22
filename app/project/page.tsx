@@ -63,7 +63,7 @@ export default function Project() {
           {stages.map((stage) => (
             <div
               key={stage.id}
-              className={`absolute ${stage.position} ${stage.responsivePosition} bg-azulMedio w-[15%] text-white p-2 rounded-xl`}
+              className={`absolute ${stage.position} ${stage.responsivePosition} bg-azulMedio w-20% md:w-[15%] text-white p-2 rounded-xl`}
             >
               <div className="flex flex-col justify-between items-center">
                 <h3 className="text-xs md:text-lg text-azulOscuro font-bold">{stage.title}</h3>
