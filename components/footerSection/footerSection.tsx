@@ -89,7 +89,7 @@ export const FooterSection = () => {
         </div>
       </div>
       <div className="text-center mt-10 text-sm hover:text-turquesa">
-        <a href="https://w.app/W6BnFe" target="_blank">
+        <a href="http://wa.link/tmra6v" target="_blank">
         &copy;2024 desarrollado por Rocio Molina
         </a>
       </div>
