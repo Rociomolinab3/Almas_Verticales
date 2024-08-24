@@ -50,7 +50,7 @@ export default function About() {
         </div>
       </section>
       <section className="pt-10 pb-20 flex flex-col xl:flex-row bg-grisMedioClaro gap-4">
-        <div className="w-[90%] flex flex-col items-center justify-center xl:w-[50%] p-[5%] xl:items-start">
+        <div className="w-full flex flex-col items-center justify-center xl:w-[50%] p-[5%] xl:items-start">
           <button className="bg-azulOscuro xl:w-[40%] text-white py-2 px-4 rounded-lg hover:bg-azulMedio transition duration-300">
             ¡Seguí nuestro viaje!
           </button>
