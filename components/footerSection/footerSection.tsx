@@ -3,6 +3,7 @@ import Image from "next/image";
 import LogoInstagram from "@/assets/logos/Instagram.svg";
 import LogoWhatsapp from "@/assets/logos/Whatsapp.svg";
 import LogoYoutube from "@/assets/logos/Youtube.svg";
+import LogoEmail from "@/assets/logos/Mail.svg";
 
 export const FooterSection = () => {
   return (
@@ -59,15 +60,6 @@ export const FooterSection = () => {
               <span>Instagram</span>
             </a>
             <a
-              href="https://w.app/ijC80v"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center space-x-4 px-6 py-2 bg-azulMedio bg-opacity-50 rounded-full hover:bg-azulMedio"
-            >
-              <LogoWhatsapp className="h-6 w-6" />
-              <span>Whatsapp</span>
-            </a>
-            <a
               href="https://www.youtube.com/@AlmasVerticales/videos"
               target="_blank"
               rel="noopener noreferrer"
@@ -85,12 +77,19 @@ export const FooterSection = () => {
               <LogoYoutube className="h-6 w-6" />
               <span>Tik Tok</span>
             </a>
+            <a
+              href="mailto:almasverticales@gmail.com"
+              className="flex items-center space-x-4 px-6 py-2 bg-azulMedio bg-opacity-50 rounded-full hover:bg-azulMedio"
+            >
+              <LogoEmail className="h-6 w-6" />
+              <span>Contáctanos</span>
+            </a>
           </div>
         </div>
       </div>
       <div className="text-center mt-10 text-sm hover:text-turquesa">
         <a href="http://wa.link/tmra6v" target="_blank">
-        &copy;2024 desarrollado por Rocio Molina
+          &copy;2024 desarrollado por Rocio Molina
         </a>
       </div>
     </div>

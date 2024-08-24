@@ -1,6 +1,23 @@
 
 export const dataBlog=[
-
+  // {   
+  //   id: '50',
+  //   srcPrincipal: '',
+  //   alt: '',
+  //   title: "",
+  //   subtitulo: "",
+  //   fecha:"JULIO 22, 2024",
+  //   href:"",
+  // },
+  {   
+    id: '50',
+    srcPrincipal: 'https://firebasestorage.googleapis.com/v0/b/almas-verticales.appspot.com/o/blog%2FHuancaya.webp?alt=media&token=da136560-17a4-4136-9c6e-c9a70307d78b',
+    alt: 'La ruta hacia Huancaya, Perú',
+    title: "La ruta hacia Huancaya, Perú",
+    subtitulo: "in lugar a dudas uno de los mejores lugares por los que hemos andado en Perú! La ruta hacia Huancaya es increíblemente escénica y los alrededores del poblado son espectaculares",
+    fecha:"AGOSTO 12, 2024",
+    href:"https://www.youtube.com/watch?v=2hOQPisvkVg&t=1s",
+  },
   {   
     id: '49',
     srcPrincipal: 'https://firebasestorage.googleapis.com/v0/b/almas-verticales.appspot.com/o/blog%2Fchoquequirao.webp?alt=media&token=ae74582b-f41f-4c88-a11e-155c7e5ded94',
@@ -30,7 +47,7 @@ export const dataBlog=[
       },
       {   
         id: '20',
-        srcPrincipal: 'https://firebasestorage.googleapis.com/v0/b/almas-verticales.appspot.com/o/blog%2Fsenderos%20increibles.webp?alt=media&token=163754b0-60f9-459b-96f5-ad5d03bd3270',
+        srcPrincipal: 'https://firebasestorage.googleapis.com/v0/b/almas-verticales.appspot.com/o/blog%2Fvanlife.webp?alt=media&token=ff12d0ff-8ca5-46c4-a8f0-57c1fc58ad78',
         alt: 'ejemplo alt 1',
         title: "Van tour y despedidas. +Rio Limay",
         subtitulo: "Mes de preparación y despedidas. Arranca la etapa 2 para la FiLoneta!",

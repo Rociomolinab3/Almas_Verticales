@@ -77,10 +77,6 @@ export const Collaborations: React.FC = () => {
               </p>
               <ul className="list-none flex flex-col gap-2">
                 <li className="flex gap-2 items-center">
-                  <LogoItem className="h-6 w-6"/>
-                  <span className="font-bold">PLAN BÁSICO INICIAL</span>
-                </li>
-                <li className="flex gap-2 items-center">
                 <LogoItem className="h-6 w-6"/>
                   <span className="font-bold">PLAN PERSONALIZADO</span>
                 </li>
