@@ -91,8 +91,8 @@ export default function Project() {
       
       {/* Contenido para pantallas pequeñas (sm) */}
       <div className="block md:hidden">
-        <div className="bg-grisOscuro pt-[30%] pb-[10%]">
-          <table className="w-full text-white">
+        <div className="bg-grisOscuro pt-[35%] pb-[10%]">
+          <table className="w-full text-white rounded-xl shadow-md shadow-slate-500">
             <tbody>
               {stages.map((stage) => (
                 <tr 
