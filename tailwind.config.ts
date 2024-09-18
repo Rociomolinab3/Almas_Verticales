@@ -16,6 +16,7 @@ const config: Config = {
         'celeste':'#c9d8ec',
         'naranja':'#facc88',
         'grisOscuro':'#2e232b',
+        'grisOscuro2':'#171115',
         'grisMedio':'#8f99a2',
         'grisMedioClaro':'#afb1b3',
         'grisMedioOscuro':'#424547',
