@@ -9,6 +9,15 @@ export const dataBlog=[
   //   fecha:"JULIO 22, 2024",
   //   href:"",
   // },
+    {   
+    id: '51',
+    srcPrincipal: 'https://firebasestorage.googleapis.com/v0/b/almas-verticales.appspot.com/o/blog%2FGalapagos.png?alt=media&token=d1e5656d-14e2-4db2-9f09-a7a75cc2d9f4',
+    alt: 'Imágen familiar en Islas Galápagos',
+    title: "LLEGAMOS A LAS ISLAS GALÁPAGOS",
+    subtitulo: "Primer video de este paraiso único en el mundo, las Islas Galapagos 🐢🇪🇨. Te contamos todo lo que necesitas saber si querés conocer este lugar maravilloso! ",
+    fecha:"SEPT 09, 2024",
+    href:"https://www.youtube.com/watch?v=NEUzvapTlQI",
+  },
   {   
     id: '50',
     srcPrincipal: 'https://firebasestorage.googleapis.com/v0/b/almas-verticales.appspot.com/o/blog%2FHuancaya.webp?alt=media&token=da136560-17a4-4136-9c6e-c9a70307d78b',
