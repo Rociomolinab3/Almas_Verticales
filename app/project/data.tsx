@@ -1,8 +1,8 @@
 export const dataDetail = [
   {
     number: 1,
-    title: "ETAPA 1",
-    country: "CHILE – ARGENTINA",
+    title: "ARGENTINA Y CHILE",
+    country: "ARGENTINA Y CHILE",
     season: "NOVIEMBRE A MARZO 2024",
     description: `
       Trekking y Senderismo por el fin del mundo, conectando el sur continental con Alaska.
@@ -99,7 +99,7 @@ export const dataDetail = [
   },
   {
     number: 2,
-    title: "ETAPA 2",
+    title: "URUGUAY",
     country: "URUGUAY",
     season: "MARZO/ABRIL 2024",
     description: `
@@ -145,7 +145,7 @@ export const dataDetail = [
   },
   {
     number: 3,
-    title: "ETAPA 3",
+    title: "PARAGUAY",
     country: "PARAGUAY",
     season: "MARZO/ABRIL 2024",
     description: `
@@ -174,7 +174,7 @@ export const dataDetail = [
   },
   {
     number: 4,
-    title: "ETAPA 4",
+    title: "BOLIVIA",
     country: "BOLIVIA",
     season: "MAYO 2024",
     description: `
@@ -198,7 +198,7 @@ export const dataDetail = [
   },  
   {
     number: 5,
-    title: "ETAPA 5",
+    title: "PERÚ",
     country: "PERÚ",
     season: "JULIO 2024",
     description: `
@@ -227,7 +227,7 @@ export const dataDetail = [
   },
   {
     number: 6,
-    title: "ETAPA 6",
+    title: "ECUADOR",
     country: "ECUADOR",
     season: "AGOSTO 2024",
     description: `
@@ -256,8 +256,8 @@ export const dataDetail = [
   },
   {
     number: 7,
-    title: "ETAPA 7",
-    country: "COLOMBIA, VENEZUELA, BRASIL",
+    title: "COLOMBIA, VENEZUELA, BRASIL, GUYANA",
+    country: "COLOMBIA, VENEZUELA, BRASIL, GUYANA",
     season: "SEPTIEMBRE 2024",
     description: `
       Exploración de Colombia, Venezuela, y Brasil. Desde Ipiales en el sur de Colombia, viajando por ciudades importantes hasta Venezuela, para intentar el ascenso al Pico Bolívar y luego al Roraima. Finalmente, cruzaremos a Brasil para escalar el Pico Da Neblina.
@@ -299,8 +299,8 @@ export const dataDetail = [
   },
   {
     number: 8,
-    title: "ETAPA 8",
-    country: "CENTROAMÉRICA",
+    title: "CENTROAMÉRICA",
+    country: "PANAMÁ, COSTA RICA, NICARAGUA, EL SALVADOR, HONDURAS, BELICE, GUATEMALA, MÉXICO",
     season: "NOVIEMBRE-DICIEMBRE 2024",
     description: `
       Exploración de las principales cumbres de Centroamérica, incluyendo el ascenso a volcanes y puntos altos de Panamá, Costa Rica, Nicaragua, El Salvador, Honduras, Belice, Guatemala y México.
@@ -328,7 +328,7 @@ export const dataDetail = [
   },
   {
     number: 9,
-    title: "ETAPA 9",
+    title: "ESTADOS UNIDOS, CANADÁ Y ALASKA",
     country: "ESTADOS UNIDOS, CANADÁ Y ALASKA",
     season: "DICIEMBRE 2024 - FEBRERO 2025",
     description: `
@@ -365,8 +365,8 @@ export const dataDetail = [
   },
   {
     number: 10,
-    title: "ETAPA 10",
-    country: "CHILE Y ARGENTINA",
+    title: "ARGENTINA Y CHILE",
+    country: "ARGENTINA Y CHILE",
     season: "MARZO 2025",
     description: `
       El cierre perfecto para este proyecto, buscando las dos cumbres más altas de América del Sur juntos: el Ojos del Salado en Chile, el volcán más alto del mundo, y el Cerro Aconcagua en Argentina, el pico más alto del continente.

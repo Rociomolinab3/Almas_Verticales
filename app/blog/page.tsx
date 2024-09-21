@@ -46,13 +46,13 @@ export default function Project() {
         </div>
         <div id="der" className="w-full xl:w-[40%] bg-grisMedio py-[4%]">
           <div className="bg-azulOscuro rounded-2xl mx-[5%] xl:mx-[10%] px-[4%] py-[4%] flex flex-col gap-6">
-            <div className="bg-grisClaro rounded-xl p-4">
+            {/* <div className="bg-grisClaro rounded-xl p-4">
               <div className="flex flex-row items-center gap-2">
                 <Search className="w-6 h-6" />
                 <p className="text-grisOscuro font-bold">Buscar</p>
               </div>
               <input className="bg-grisMedioClaro rounded-xl w-full px-4 py-1 my-2" />
-            </div>
+            </div> */}
             <div className="bg-grisClaro rounded-xl p-4">
               <p className="text-grisOscuro py-2 font-bold">Destacados</p>
               <div className="flex flex-row xl:flex-col gap-2">
