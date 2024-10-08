@@ -10,6 +10,10 @@ import LogoHands from '@/assets/logos/handshake.svg';
 import LogoChat from '@/assets/logos/chat.svg';
 import LogoCart from '@/assets/logos/cart.svg';
 import LogoArrow from '@/assets/logos/arrow.svg';
+import LogoGoA from'@/assets/logos/travelGo.svg';
+import LogoViajero from '@/assets/logos/viajero.svg';
+import LogoHolaFly from '@/assets/logos/Holafly-logo.svg';
+import LogoAssistance from '@/assets/logos/goassistance.svg';
 
 
 export const Collaborations: React.FC = () => {
@@ -42,6 +46,26 @@ export const Collaborations: React.FC = () => {
             }`}
           >
             RUTINAS
+          </button>
+          <button
+            onClick={() => handleTabClick("GOASSISTANCE")}
+            className={`w-full py-4 mb-2 rounded ${
+              activeTab === "GOASSISTANCE"
+                ? "bg-orange-500 text-white"
+                : "bg-grisMedioClaro"
+            }`}
+          >
+            GO ASSISTANCE
+          </button>
+          <button
+            onClick={() => handleTabClick("HOLAFLY")}
+            className={`w-full py-4 mb-2 rounded ${
+              activeTab === "HOLAFLY"
+                ? "bg-orange-500 text-white"
+                : "bg-grisMedioClaro"
+            }`}
+          >
+            HOLA FLY
           </button>
           <button
             onClick={() => handleTabClick("SPONSORS")}
@@ -95,6 +119,40 @@ export const Collaborations: React.FC = () => {
               <LogoChat className="h-6 w-6"/>
                <a href="https://wa.me/542657521495" target="_blank" className="font-bold uppercase">
               Contáctanos
+              </a>
+              </div>
+            </div>
+          )}
+            {activeTab === "GOASSISTANCE" && (
+            <div className="flex flex-col gap-4">
+              {/* <LogoViajero className="h-6 w-6" /> */}
+              <LogoAssistance className="h-44 w-44"/>
+              {/* <h3 className="text-xl font-bold">Go Assistance</h3> */}
+              <p className="">
+                 Viajá sin preocupaciones, contratá tu seguro de asistencia al viajero con GO! Assistance y además aprovechá un 5% DE DESCUENTO EXCLUSIVO para la comunidad de Almas Verticales!!
+              </p>
+              <div className="flex gap-2 items-center">
+              <LogoGoA className="h-6 w-6"/>
+               <a href="/cotizador" target="_blank" className="font-bold uppercase">
+              Cotiza en este link!
+              </a>
+              </div>
+            </div>
+          )}
+           {activeTab === "HOLAFLY" && (
+            <div className="flex flex-col gap-6">
+              <LogoHolaFly className="h-36 w-36"/>
+              {/* <h3 className="text-xl font-bold">HOLA FLY</h3> */}
+              <p className="">
+              Conéctate a alta velocidad durante tu viaje con la eSIM de Holafly y olvídate de costosas facturas de roaming.
+              </p>
+              <p className="">
+              ¡ Ingresá el código "ALMASVERTICALES" y obtené un importante descuento !
+              </p>
+              <div className="flex gap-2 items-center">
+              <LogoGoA className="h-6 w-6"/>
+               <a href="https://esim.holafly.com/es/?ref=zteymwz&discount=ALMASVERTICALES&utm_source=almasverticales&utm_medium=affiliation" target="_blank" className="font-bold uppercase">
+               Usar Descuento!
               </a>
               </div>
             </div>
