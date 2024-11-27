@@ -23,7 +23,7 @@ export const TopSection = () => {
           NUESTRO PROYECTO
         </h3>
         <p className="text-lg md:text-2xl font-semibold text-turquesa">
-          DESDE USUAHIA HASTA ALASKA
+          DESDE USHUAIA HASTA ALASKA
         </p>
         <h1 className={`${montserrat400.className} text-4xl md:text-6xl mt-8`}>
           ALMAS VERTICALES
