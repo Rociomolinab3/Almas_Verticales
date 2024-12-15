@@ -51,7 +51,7 @@ export const TopSection = () => {
 
   return (
     <section
-      className="w-full flex flex-col py-[55%] items-center justify-center text-light bg-no-repeat bg-cover bg-center lg:py-[22%]"
+      className="w-full flex flex-col py-[75%] items-center justify-center text-light bg-no-repeat bg-cover bg-center lg:py-[22%]"
       style={{
         backgroundImage: `linear-gradient(to right bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url('${images[currentImageIndex]}')`,
       }}
