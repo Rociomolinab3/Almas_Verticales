@@ -19,8 +19,15 @@ const montserrat400 = Montserrat({
 });
 
 export const TopSection = () => {
+  // Define las imágenes para pantallas móviles
+  const imagesMobile = [
+    "https://firebasestorage.googleapis.com/v0/b/almas-verticales.appspot.com/o/AlmasVerticales2Mobile.webp?alt=media&token=823174e2-0a17-49b2-aa85-f587b1930f44",
+    "https://firebasestorage.googleapis.com/v0/b/almas-verticales.appspot.com/o/AlmasVerticales7Mobile.webp?alt=media&token=fb22854a-a32a-4cff-af5e-2213a392ebbb",
+    "https://firebasestorage.googleapis.com/v0/b/almas-verticales.appspot.com/o/AlmasVerticales8Mobile.webp?alt=media&token=6c6afed8-5c4d-4eb1-b227-32426d28a4ee",
+  ];
 
-  const images = [
+  // Define las imágenes para pantallas más grandes
+  const imagesDesktop = [
     "https://firebasestorage.googleapis.com/v0/b/almas-verticales.appspot.com/o/principal.jpg?alt=media&token=e53651bd-5539-4bee-807a-768f9bfd5e16",
     "https://firebasestorage.googleapis.com/v0/b/almas-verticales.appspot.com/o/AlmasVerticales2.webp?alt=media&token=ff0f99a6-e2c9-4e81-a18b-43f3c7333999",
     "https://firebasestorage.googleapis.com/v0/b/almas-verticales.appspot.com/o/AlmasVerticales7.webp?alt=media&token=0ab1b1c2-c5a0-4ca2-94f0-c98303f11e6e",
@@ -29,15 +36,28 @@ export const TopSection = () => {
   ];
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const [isMobile, setIsMobile] = useState(false);
 
- 
+  // Detectar el tamaño de la ventana al montar el componente y cuando cambie su tamaño
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 640); 
+    };
+    handleResize();
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  // Selecciona el arreglo de imágenes según si es móvil o no
+  const images = isMobile ? imagesMobile : imagesDesktop;
+
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
     }, 4000);
 
     return () => clearInterval(interval);
-  }, [images.length]);
+  }, [images]);
 
   const handleNext = () => {
     setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
@@ -51,7 +71,7 @@ export const TopSection = () => {
 
   return (
     <section
-      className="w-full flex flex-col py-[75%] items-center justify-center text-light bg-no-repeat bg-cover bg-center lg:py-[22%]"
+      className="w-full flex flex-col py-[65%] items-center justify-center text-light bg-no-repeat bg-cover bg-center lg:py-[22%]"
       style={{
         backgroundImage: `linear-gradient(to right bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url('${images[currentImageIndex]}')`,
       }}
@@ -98,10 +118,10 @@ export const TopSection = () => {
         </div>
       </div>
 
-      {/* Flecha Izquierda */}
+      {/* Flecha Izquierda - Oculta en mobile, visible a partir de md */}
       <button
         onClick={handlePrev}
-        className="absolute left-4 top-1/2 transform -translate-y-1/2 opacity-50 hover:opacity-100 transition-all p-2"
+        className="hidden md:absolute md:left-4 md:top-1/2 md:-translate-y-1/2 opacity-50 hover:opacity-100 transition-all p-2"
         aria-label="Anterior"
       >
         <svg
@@ -116,10 +136,10 @@ export const TopSection = () => {
         </svg>
       </button>
 
-      {/* Flecha Derecha */}
+      {/* Flecha Derecha - Oculta en mobile, visible a partir de md */}
       <button
         onClick={handleNext}
-        className="absolute right-4 top-1/2 transform -translate-y-1/2 opacity-50 hover:opacity-100 transition-all p-2"
+        className="hidden md:absolute md:right-4 md:top-1/2 md:-translate-y-1/2 opacity-50 hover:opacity-100 transition-all p-2"
         aria-label="Siguiente"
       >
         <svg
