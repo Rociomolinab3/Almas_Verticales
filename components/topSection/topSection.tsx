@@ -22,7 +22,7 @@ export const TopSection = () => {
   const imagesMobile = [
     "https://firebasestorage.googleapis.com/v0/b/almas-verticales.appspot.com/o/AlmasVerticales2Mobile.webp?alt=media&token=823174e2-0a17-49b2-aa85-f587b1930f44",
     "https://firebasestorage.googleapis.com/v0/b/almas-verticales.appspot.com/o/AlmasVerticales7Mobile.webp?alt=media&token=fb22854a-a32a-4cff-af5e-2213a392ebbb",
-    "https://firebasestorage.googleapis.com/v0/b/almas-verticales.appspot.com/o/AlmasVerticales8Mobile.webp?alt=media&token=6c6afed8-5c4d-4eb1-b227-32426d28a4ee",
+    "https://firebasestorage.googleapis.com/v0/b/almas-verticales.appspot.com/o/principal.jpg?alt=media&token=e53651bd-5539-4bee-807a-768f9bfd5e16",
   ];
 
   const imagesDesktop = [
