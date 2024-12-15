@@ -21,8 +21,13 @@ const montserrat400 = Montserrat({
 export default function Project() {
   return (
     <div className="bg-grisOscuro">
-      <section className="w-full bg-fondoBlog bg-no-repeat flex flex-col py-[65%] md:py-[40%] items-center justify-center text-light bg-cover bg-center lg:py-[22%]">
-        <div className="absolute inset-0 flex flex-col justify-center items-center text-center text-white">
+      <section className="w-full relative bg-fondoBlog bg-no-repeat flex flex-col py-[65%] md:py-[40%] items-center justify-center text-light bg-cover bg-center lg:py-[22%]">
+        {/* Agregar `relative` a esta sección para contener el div absoluto */}
+        <div
+          className="absolute inset-0 flex flex-col justify-center items-center text-center text-white"
+          style={{ pointerEvents: "none" }} 
+          // pointer-events:none evita que esta capa bloquee los clics debajo
+        >
           <h3
             className={`${montserrat200.className} text-2xl md:text-3xl font-semibold`}
           >
@@ -46,13 +51,6 @@ export default function Project() {
         </div>
         <div id="der" className="w-full xl:w-[40%] bg-grisMedio py-[4%]">
           <div className="bg-azulOscuro rounded-2xl mx-[5%] xl:mx-[10%] px-[4%] py-[4%] flex flex-col gap-6">
-            {/* <div className="bg-grisClaro rounded-xl p-4">
-              <div className="flex flex-row items-center gap-2">
-                <Search className="w-6 h-6" />
-                <p className="text-grisOscuro font-bold">Buscar</p>
-              </div>
-              <input className="bg-grisMedioClaro rounded-xl w-full px-4 py-1 my-2" />
-            </div> */}
             <div className="bg-grisClaro rounded-xl p-4">
               <p className="text-grisOscuro py-2 font-bold">Destacados</p>
               <div className="flex flex-row xl:flex-col gap-2">
@@ -60,10 +58,11 @@ export default function Project() {
                   id="dest1"
                   className="flex flex-col md:flex-row bg-celeste shadow-cyan-800 shadow-sm rounded-xl"
                 >
-                  <div className="w-ful lg:w-[50%] m-2">
+                  <div className="w-full lg:w-[50%] m-2">
                     <a
                       href="https://www.youtube.com/watch?v=JZgVKuWBfHY"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       <Image
                         className="object-cover rounded-2xl"
@@ -89,8 +88,12 @@ export default function Project() {
                   id="dest2"
                   className="flex flex-col md:flex-row bg-celeste shadow-cyan-800 shadow-sm rounded-xl"
                 >
-                  <div className="w-ful lg:w-[50%] m-2">
-                    <a href="https://www.youtube.com/watch?v=R_GFrY8rZic" target="_blank">
+                  <div className="w-full lg:w-[50%] m-2">
+                    <a
+                      href="https://www.youtube.com/watch?v=R_GFrY8rZic"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <Image
                         className="object-cover rounded-2xl"
                         src="https://firebasestorage.googleapis.com/v0/b/almas-verticales.appspot.com/o/blog%2Flagos%20del%20carbon.webp?alt=media&token=b936444c-4000-4b49-bcd7-6d9fba87cc81"
@@ -112,7 +115,7 @@ export default function Project() {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> 
           </div>
         </div>
       </section>

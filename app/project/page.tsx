@@ -62,7 +62,7 @@ export default function Project() {
           <h2
             className={`${montserrat200.className} text-2xl text-grisClaro mb-10`}
           >
-            DETALLE DE LAS ETAPAS
+             DE LAS ETAPAS
           </h2>
           <div className="w-full max-w-lg">
             {dataDetail.map((stage, index) => (

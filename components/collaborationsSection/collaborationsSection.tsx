@@ -11,7 +11,6 @@ import LogoChat from '@/assets/logos/chat.svg';
 import LogoCart from '@/assets/logos/cart.svg';
 import LogoArrow from '@/assets/logos/arrow.svg';
 import LogoGoA from'@/assets/logos/travelGo.svg';
-import LogoViajero from '@/assets/logos/viajero.svg';
 import LogoHolaFly from '@/assets/logos/Holafly-logo.svg';
 import LogoAssistance from '@/assets/logos/goassistance.svg';
 
@@ -151,7 +150,7 @@ export const Collaborations: React.FC = () => {
               </p>
               <div className="flex gap-2 items-center">
               <LogoGoA className="h-6 w-6"/>
-               <a href="https://esim.holafly.com/es/?ref=zteymwz&discount=ALMASVERTICALES&utm_source=almasverticales&utm_medium=affiliation" target="_blank" className="font-bold uppercase">
+               <a href="https://esim.holafly.com/es/?irclickid=z1o1geWxrxyKTIqTK9Ut5XMtUkCXjCx%3AwS6pWs0&discount=ALMASVERTICALES&utm_source=affiliate&utm_medium=Almas%20Verticales&utm_campaign=5845956&irgwc=1" target="_blank" className="font-bold uppercase">
                Usar Descuento!
               </a>
               </div>

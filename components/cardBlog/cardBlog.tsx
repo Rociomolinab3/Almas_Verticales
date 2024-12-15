@@ -56,10 +56,15 @@ function CardBlog({ cardBlog }: Props) {
           <p className={`${montserrat200.className} text-grisOscuro text-md`}>{cardBlog.subtitulo}</p>
         </div>
         <div className="flex items-center justify-center pt-4 md:pt-2">
-          <button className="bg-grisMedio hover:bg-azulMedio items-center gap-2 justify-center rounded-full opacity-90 border-2 py-2 border-azulOscuro w-[60%] px-2  flex">
-            <p className="text-azulOscuro font-bold">VER VIDEO</p>
-            <PlayBlue className="h-10 w-10"/>
-          </button>
+        <Link
+          href={cardBlog.href}
+          className="bg-grisMedio hover:bg-azulMedio items-center gap-2 justify-center rounded-full opacity-90 border-2 py-2 border-azulOscuro w-[60%] px-2 flex text-azulOscuro font-bold"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <p>VER VIDEO</p>
+          <PlayBlue className="h-10 w-10" />
+        </Link> 
         </div>
       </div>
     </div>

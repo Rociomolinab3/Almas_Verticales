@@ -9,6 +9,15 @@ export const dataBlog=[
   //   fecha:"JULIO 22, 2024",
   //   href:"",
   // },
+  {   
+    id: '52',
+    srcPrincipal: 'https://firebasestorage.googleapis.com/v0/b/almas-verticales.appspot.com/o/blog%2FVenecia%20Colombiana.webp?alt=media&token=317c850e-f76d-4d48-96a7-bfbfc656a0e0',
+    alt: 'Valencia Colombiana',
+    title: "HOLA COLOMBIA! Conocemos la Venecia Colombiana",
+    subtitulo: "Como el título lo dice conocer la Venecia colombiana nos encantó! Sin dudas Nariño lo tiene todo, arquitectura, naturaleza y la amabilidad de su gente ",
+    fecha:"OCT 28, 2024",
+    href:"https://www.youtube.com/watch?v=lFsifcB94N0",
+  },
     {   
     id: '51',
     srcPrincipal: 'https://firebasestorage.googleapis.com/v0/b/almas-verticales.appspot.com/o/blog%2FGalapagos.png?alt=media&token=d1e5656d-14e2-4db2-9f09-a7a75cc2d9f4',
