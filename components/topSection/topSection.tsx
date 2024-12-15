@@ -19,14 +19,12 @@ const montserrat400 = Montserrat({
 });
 
 export const TopSection = () => {
-  // Define las imágenes para pantallas móviles
   const imagesMobile = [
     "https://firebasestorage.googleapis.com/v0/b/almas-verticales.appspot.com/o/AlmasVerticales2Mobile.webp?alt=media&token=823174e2-0a17-49b2-aa85-f587b1930f44",
     "https://firebasestorage.googleapis.com/v0/b/almas-verticales.appspot.com/o/AlmasVerticales7Mobile.webp?alt=media&token=fb22854a-a32a-4cff-af5e-2213a392ebbb",
     "https://firebasestorage.googleapis.com/v0/b/almas-verticales.appspot.com/o/AlmasVerticales8Mobile.webp?alt=media&token=6c6afed8-5c4d-4eb1-b227-32426d28a4ee",
   ];
 
-  // Define las imágenes para pantallas más grandes
   const imagesDesktop = [
     "https://firebasestorage.googleapis.com/v0/b/almas-verticales.appspot.com/o/principal.jpg?alt=media&token=e53651bd-5539-4bee-807a-768f9bfd5e16",
     "https://firebasestorage.googleapis.com/v0/b/almas-verticales.appspot.com/o/AlmasVerticales2.webp?alt=media&token=ff0f99a6-e2c9-4e81-a18b-43f3c7333999",
@@ -38,7 +36,6 @@ export const TopSection = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [isMobile, setIsMobile] = useState(false);
 
-  // Detectar el tamaño de la ventana al montar el componente y cuando cambie su tamaño
   useEffect(() => {
     const handleResize = () => {
       setIsMobile(window.innerWidth < 640); 
@@ -48,7 +45,6 @@ export const TopSection = () => {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  // Selecciona el arreglo de imágenes según si es móvil o no
   const images = isMobile ? imagesMobile : imagesDesktop;
 
   useEffect(() => {
@@ -67,6 +63,10 @@ export const TopSection = () => {
     setCurrentImageIndex((prevIndex) =>
       (prevIndex - 1 + images.length) % images.length
     );
+  };
+
+  const handleDotClick = (index: number) => {
+    setCurrentImageIndex(index);
   };
 
   return (
@@ -118,7 +118,7 @@ export const TopSection = () => {
         </div>
       </div>
 
-      {/* Flecha Izquierda - Oculta en mobile, visible a partir de md */}
+      {/* Flechas ocultas en mobile */}
       <button
         onClick={handlePrev}
         className="hidden md:absolute md:left-4 md:top-1/2 md:-translate-y-1/2 opacity-50 hover:opacity-100 transition-all p-2"
@@ -136,7 +136,6 @@ export const TopSection = () => {
         </svg>
       </button>
 
-      {/* Flecha Derecha - Oculta en mobile, visible a partir de md */}
       <button
         onClick={handleNext}
         className="hidden md:absolute md:right-4 md:top-1/2 md:-translate-y-1/2 opacity-50 hover:opacity-100 transition-all p-2"
@@ -153,6 +152,20 @@ export const TopSection = () => {
           <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
         </svg>
       </button>
+
+      {/* Dots de navegación - visibles siempre al fondo, centrados */}
+      <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
+        {images.map((_, index) => (
+          <button
+            key={index}
+            onClick={() => handleDotClick(index)}
+            aria-label={`Ir a la imagen ${index + 1}`}
+            className={`w-3 h-3 rounded-full border border-white ${
+              currentImageIndex === index ? 'bg-white' : 'bg-transparent'
+            } transition-all`}
+          />
+        ))}
+      </div>
     </section>
   );
 };
