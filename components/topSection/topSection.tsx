@@ -71,13 +71,13 @@ export const TopSection = () => {
 
   return (
     <section
-      className="w-full flex flex-col py-[65%] items-center justify-center text-light bg-no-repeat bg-cover bg-center lg:py-[22%]"
+      className="relative w-full flex flex-col py-[65%] items-center justify-center text-light bg-no-repeat bg-cover bg-center lg:py-[22%]"
       style={{
         backgroundImage: `linear-gradient(to right bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url('${images[currentImageIndex]}')`,
       }}
     >
-      {/* Contenido centrado */}
-      <div className="absolute inset-0 flex flex-col justify-center items-center text-center text-white">
+      {/* Contenido centrado, desplazado hacia arriba en mobile */}
+      <div className="absolute inset-0 flex flex-col justify-center items-center text-center text-white -translate-y-10 md:translate-y-0">
         <h3 className={`${montserrat200.className} text-2xl md:text-3xl`}>
           NUESTRO PROYECTO
         </h3>
